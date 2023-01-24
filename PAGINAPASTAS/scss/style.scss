@@ -1,0 +1,66 @@
+.grid-container-2p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    
+    p{
+        font-size: 12px;
+    }
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    #LogoIndex {
+        max-width: 520px;
+        max-height: 520px;
+    }
+
+    #imgPaginas {
+        margin-top: 180px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+    }
+}
+
+.grid-container-1p {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+    }
+}
+
+.grid-container-2p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+    }
+}
